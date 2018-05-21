@@ -14,3 +14,37 @@ html,body {
 	margin: 0;
 	padding: 0;
 }
+
+#header {
+	position: relative;
+	width: 100%;
+	height: 128px;
+	background-color:  #6930A3;
+	box-shadow: 0 0 32px grey; 	
+}
+
+#header-title {
+	position: absolute;
+	top: 50%;
+	left: 32px;
+	transform: translateY(-50%);
+	height: 64px;
+	line-height: 100%;
+	color: white;
+	font-size: 64px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#main {
+	width: calc(100% - 64px);
+	padding: 32px;
+}
+
+.level {
+	display: flex;
+}
+
+#root {
+	min-width: 128px;
+	box-shadow: 0 0 8px grey
+}
